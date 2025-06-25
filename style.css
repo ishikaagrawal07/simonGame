@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.line-one, .line-two {
+    display: flex;
+}
+
+.btn {
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+    border: 8px solid black;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.flash {
+    background-color: white !important;
+}
+
+.userFlash {
+    box-shadow: 0 0 20px white;
+}
